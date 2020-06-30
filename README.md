@@ -1,3 +1,3 @@
-### Bonjour à tous
+### Bonjour à tous ###
 
-##Voici vos magnifiques travaux écrits en HTML + CSS et un peu de JavaScript
+##Voici vos magnifiques travaux écrits en HTML + CSS et un peu de JavaScript##
