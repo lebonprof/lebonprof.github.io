@@ -1,0 +1,130 @@
+@font-face {
+  font-family: police;
+  src: url(SpicyRice-Regular.ttf);
+}
+
+
+body
+{
+	background-color : silver;
+	color : black;
+	font-family : police;
+	font-size : 22px;
+}
+h1
+{
+	font-size : 54px;
+	color : teal;
+	text-align : center;
+	
+}
+h2
+{
+	color : black;
+	font-size : 44px;
+	text-align : left;
+	color : black;
+}
+
+p
+{
+	
+	font-size : 22px;
+	text-align : justify;
+	color : black;
+}
+
+blockquote
+{
+	font-size : 22px;
+	font-style : italic;
+	color : black;
+	
+}
+
+a
+{
+	font-size : 22px;
+	font-style : oblique;
+}
+
+ol
+{
+	font-size : 22px;
+	text-align : justify;
+	color : black;
+}
+
+
+ul
+{
+	
+	font-size : 22px;
+	text-align : justify;
+	color : black;
+
+}
+
+
+li
+{
+	font-size : 22px;
+	text-align : justify;
+	color : black;
+
+}
+
+table
+{
+	border: 2px solid black;
+	font-size : 22px;
+}
+
+tr
+{
+
+}
+
+td
+{
+	border: 2px solid black;
+	font-size : 22px;
+	text-align : center
+}
+
+img
+{
+	
+	text-align : left
+	
+}
+
+hr
+{
+	
+	border: 1px solid black;
+	
+}
+
+br
+{
+	
+
+}
+
+strong
+{
+	
+	font-size : 15px;
+	text-align : left
+	color : black
+	
+}
+
+abbr
+{
+	
+	font-size : 22px;
+	color : black;
+	
+}

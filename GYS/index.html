@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>  
+	<head>
+		<!-- En-tête de la page -->
+		<meta charset="utf-8" />
+			<link rel="stylesheet" href="questionnaire.css"/>
+		<title>La quête sacrée du Pochemon</title>
+	</head>
+
+	<body>
+	<h1>
+	Monsieur! C'est incroyable! Nous avons retrouver les Pochemons, des créatures disparues depuis l'an 42! Prenez vos affaires, vite, il faut aller trouver votre Pochemon!<br></h1>
+	
+		<form>
+				<p>Quel Pochemon préférez vous?<br>
+			</p>
+			<input type="radio" id="Chienmon" name="radio" value="Chien">
+			<label for="Chienmon">Le chienmon</label><br>
+			<input type="radio" id="Chatmon" name="radio" value="Chat">
+			<label for="Chatmon">Le chatmon</label><br>
+			<input type="radio" id="Autre" name="radio" value="Autre">
+			<label for="Autre">Tous les pochemons sauf Bullenormalemon</label>
+			<p> Combien de Poche balle avez vous? </p><br>
+			<label for="pocheballe">Nombre de Poche balle (Entre 1 et 3) :</label>
+			<input type="number" id="Nombre de Poche balle" name="pocheballe" min="0" max="3">
+			<p> Comment voulez vous appelez votre Pochemon?</p><br>
+			<label for="Nom">Nom du Pochemon:</label><br>
+			<input type="text" id="nom" name="Nom"><br>
+			<p> Attention! un Pochemon! que faites vous? </p>
+			<input type="checkbox" id="capture" name="capture" value="attraper">
+			<label for="capture"> Lui jetter une Poche balle dessus</label><br>
+			<input type="checkbox" id="fail1" name="fail1" value="run">
+			<label for="fail1"> Courir après pour l'attraper</label><br>
+			<input type="checkbox" id="fail2" name="fail2" value="cigogne">
+			<label for="fail2"> Faire le cri de la cigogne</label><br>
+			<input type="checkbox" id="fail3" name="fail3" value="huitre">
+			<label for="fail3"> Faire le cri de l'huitre</label><br>
+			<input type="button" name="bouton" value="L'avez vous attraper?" onClick="pochemon()">
+		</form>
+		<p id="paragraphe"></p>
+		<img src="images/chat.jpg" id="imginvi" style="display:none;"/>
+		<p id="coucou" style="display:none;"> source de l'image:
+		<a href="https://www.planeteanimal.com" id="lien" style="display:none;"> https://www.planeteanimal.com </a>
+		</p>
+
+
+
+
+
+	<script type="text/javascript" src="questionnaire.js"></script>
+
+	
+	
+	</body>
+</html>

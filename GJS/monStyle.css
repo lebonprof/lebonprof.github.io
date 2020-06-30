@@ -1,0 +1,48 @@
+body
+{
+	background-color : silver;
+	color : black;
+	font-family : police;
+	font-size : 22px;
+}
+h1
+{
+	font-size : 54px;
+	color : teal;
+	text-align : center;
+	
+}
+h2
+{
+	color : black;
+	font-size : 44px;
+	text-align : left;
+	color : black;
+}
+
+p
+{
+	
+	font-size : 22px;
+	text-align : justify;
+	color : black;
+}
+
+strong
+{
+	
+	font-size : 15px;
+	text-align : left
+	color : black
+	
+}
+
+em
+{
+	
+	font-size : 26px;
+	text-align : left
+	
+	
+}
+
