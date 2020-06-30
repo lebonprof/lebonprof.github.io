@@ -1,0 +1,48 @@
+body/* Corps de la page mes compétences*/
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(Images/imagedefond.jpg);
+    background-size: cover;
+	font-align : center;
+}
+
+
+h1
+{
+	text-align : center ;
+}
+
+
+h2 
+{
+	font-family: sans-serif;
+	font-size : 24px ; 
+}
+
+
+h3
+{
+	font-family: sans-serif;
+	font-size : 24px ; 
+}
+
+
+h4 
+{
+	position : relative ; 
+	font-family: sans-serif;
+	font-size : 24px ;
+}
+
+
+ul
+{
+	font-family: sans-serif;
+	font-size : 24px ; 
+}
+
+
+
+

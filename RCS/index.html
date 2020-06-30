@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>  
+	<head>
+		<!-- En-tête de la page -->
+		<title>Êtes-vous un gamer ?</title>
+		<meta charset="utf-8">
+		<!--source de l'img: https://www.freepnglogos.com/pics/games -->
+		<link rel="icon" type="image/png" href="imgs/favicon.png"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="menu">
+			<label>Êtes-vous un vrai <strong>G4M3R</strong> ?</label>
+		</div>
+
+	<form name="formulaire">
+		<div id="firstq" class="question">
+			<label class="qlabel">Avez-vous un pseudonyme ?</label><br>
+			<input type="radio" id="pseudoyes" name="havepseudo" value="Oui" onchange="pseudoAnwserChange()">
+			<label class="rlabel" for="pseudoyes">Oui</label>
+			<br>
+			<input type="radio" id="pseudono" name="havepseudo" value="Non" onchange="pseudoAnwserChange()">
+			<label class="rlabel" for="pseudono">Non</label>
+		</div>
+		<div id="firstopq" class="question" style="display: none;">
+			<label class="qlabel">Votre pseudo :</label><br>
+			<input type="text" id="pseudoinput" class="textfield" placeholder="Pseudonyme">
+			
+		</div>
+		<br/>
+		<div id="secondq" class="question">
+
+			<label class="qlabel">A combien de jeux vidéos avez vous déja joué :</label><br>
+			<input type="number" id="vgamesnb" class="textfield" name="videosgamesnumber" placeholder="Ex: 5" min="0">
+		</div>
+		<br>
+		<div id="thirdq" class="question">
+			<label class="qlabel">Pour vous un meme c'est :</label><br>
+			<div class="select-container">
+				<select id="meme" name="meme">
+					<option selected disabled>Choisissez une option</option>
+				  	<option value="img">Une image rien de plus</option>
+				  	<option value="imgif">Un image qui bouge</option>
+				  	<option value="vid">Une vidéo</option>
+				  	<option value="memedef">Une image, vidéo ou gif sensé faire rire, réagir</option>
+				</select>
+				<span>&#9660;</span>
+			</div>
+		</div>
+		<br>
+		<div id="fourthq" class="question">
+			<label class="qlabel">Quand vous lancez votre jeu préféré c'est pour : </label><br>
+			<div class="select-container">
+				<select id="jeuquefaire" name="jeuquefaire">
+					<option selected disabled>Choisissez une option</option>
+				  	<option value="amuse">S'amuser et se détendre</option>
+				  	<option value="tryhard">Tryhard</option>
+				  	<option value="ques">Comment on lance un jeu vidéo ?</option>
+				  	<option value="pcnul">Le regarder charger</option>
+				</select>
+				<span>&#9660;</span>
+			</div>
+		</div>
+		<br>
+		<div id="fifthq" class="question">
+			<label class="qlabel">Les jeux vidéos ont-ils influencés votre langage et façon de parler :</label><br>
+			<input type="radio" id="langagechangeyes" name="langagechange" value="Oui">
+			<label class="rlabel" for="langagechangeyes">Oui</label>
+			<br>
+			<input type="radio" id="langagechangeno" name="langagechange" value="Non">
+			<label class="rlabel" for="langagechangeno">Non</label>
+		</div>
+		<br>
+		<div id="sixthq" class="question">
+			<label class="qlabel">Qu'est-ce qu'un DLC :</label><br>
+			<input type="text" name="dlcdef" class="textfield" id="defdlc" placeholder="Definition">
+		</div>
+		<br>
+		<div id="seventhq" class="question">
+			<label class="qlabel">Pour vous le premier avril c'est :</label><br>
+			<div class="select-container">
+				<select id="conciderationavril" name="conciderationavril">
+					<option selected disabled>Choisissez une option</option>
+				  	<option value="rien">Un jour comme les autres</option>
+				  	<option value="tryhard">Le jour où l'on développe notre 6ème sens</option>
+				  	<option value="poisson">Les poissons d'avril</option>
+				  	<option value="blagueur">la journée international des chats</option>
+				</select>
+				<span>&#9660;</span>
+			</div>
+		</div>
+		<br>
+		<input type="button" name="bouton" id="submitbutton" value="Soumettre mon formulaire" onClick="sendForm()">
+	</form>
+
+	<div id="modalbox">
+		<div class="modalclos">
+			<span id="modalclose" onclick="closeModal()">&times;</span>
+		</div>
+		<div id="modalcontent">
+			<h3 id="resultitle">Résultat :</h3>
+	   		<p id="resultcontent"></p>
+	   		<img src="imgs/chat.jpg" id="chatimg" style="display: none" alt="image de chat. SURPRISE" title="image de chat. SURPRISE">
+   		</div>
+   	</div>
+
+	<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>

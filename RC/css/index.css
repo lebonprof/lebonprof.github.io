@@ -1,0 +1,94 @@
+#pres-gen {
+	padding-top: 10%;
+	width: 750px;
+	margin: 0 auto;
+	display: block;
+	
+}
+
+#profil {
+	padding-bottom: 10%;
+}
+
+#profil p {
+	color: #a6a6a1; 
+	font-size: 15px;
+	display: flex;
+	padding-left: 20px;
+}
+
+#profil h3 {
+	font-size: 20px;
+	font-weight: 500;
+	display: flex;
+	padding-left: 20px;
+	line-height: 5px;
+	padding-bottom: 10px;
+	color: #c9c9c3;
+}
+
+#profil h3 strong {
+	padding-left: 2px;
+	color: #292928;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+#profil .profil-header {
+	padding-bottom: 15px;
+	border-bottom: solid 1.5px #4f5252;
+}
+
+#profil table {
+	margin-top: 5%;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+
+#profil table tr td {
+	padding-bottom: 5px;
+}
+
+#profil table tr td a {
+	color: #c9c9c3;
+	border-bottom: solid 2px #a1a19a;
+}
+
+#profil table tr td {
+	color: #c9c9c3;
+}
+
+#profil table tr td a:hover {
+	color: #a1a19a;
+}
+
+#profil table tr td.indicator {
+	text-transform: uppercase;
+	color: black;
+}
+
+#profil table tr td.info {
+	padding-left: 15px;
+}
+
+#profil table tr {
+	font-weight: 800;
+	font-size: 15px;
+
+}
+
+#txt-bottom {
+	margin: 0 auto;
+	width: 900px;
+	color: #c9c9c3;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.5;
+}
+
+.pic {
+	float: left;
+	width: 333px;
+	height: 248px;
+}

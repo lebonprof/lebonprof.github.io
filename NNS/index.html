@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=" utf−8" />
+		<link rel="stylesheet" href="ZeCSS.css" />
+		<title >Un formulaire </title >
+	</head>
+	
+	<body>
+	
+	<h2>Bonjour, bienvenue sur ce formulaire!</h2> <br/>
+	
+	<form name="formulaire">
+		<strong>Comment vous vous appelez?</strong> <br/>
+		<input  id="inom"
+			type="text"
+			name="nom"><br />
+		<input  type="button"
+			name="bouton"
+			value="Cliquez ici"
+			onClick="controle()">
+	</form>
+	
+	<p id="a_remplir"></p>
+	
+	<form name="formulaire2">
+		<strong>Choisissez un nombre:</strong> <br/>
+		<input  id="inombre"
+			type="nombre"
+			name="nombre"><br />
+		<input  type="button"
+			name="bouton"
+			value="Cliquez ici"
+			onClick="controle2()">
+	</form>
+	
+	<p id="a_remplir2"></p>
+	
+	<form>
+		<strong>Qu'est ce qu'il manque à ce formulaire?</strong> <br/>
+		<input type="radio" id="chat" name="quoi" value="chat">
+		<label for="chat">Un chat</label><br>
+		<input type="radio" id="poisson" name="quoi" value="poisson">
+		<label for="poisson">Un poisson d'avril</label><br>
+		<input type="radio" id="humour" name="quoi" value="humour">
+		<label for="humour">Un humour de qualité</label> <br/>
+		<input type="button" 
+			value="Cliquez"
+			onClick="controle3()">
+			
+	</form>
+	
+	<p id="a_remplir3"></p>
+	
+	<form name="formulaire4">
+		<strong>Vous allez me mettre une bonne note?:</strong> <br/>
+		<input  id="ireponse"
+			type="texte"
+			name="reponse"><br />
+		<input  type="button"
+			name="bouton"
+			value="Cliquez ici"
+			onClick="controle4()">
+	</form>
+	
+	<p id="a_remplir4"></p>
+	
+	
+	
+	<script type=" text/javascript" src="java.js"></script>
+	</body>
+</html>

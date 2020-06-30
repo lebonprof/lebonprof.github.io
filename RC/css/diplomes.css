@@ -1,0 +1,36 @@
+.date {
+	color: #18afba;
+	float: right;
+}
+
+.diplome, .certif {
+	background-color: #fff;
+	margin: 20px;
+	margin-top: 10px;
+	display: block;
+	width: 800px;
+	padding: 20px;
+	box-shadow: 0 1.5px 8px rgba(0, 0, 0, 0.12), 0 1.5px 6px rgba(0, 0, 0, 0.24);
+}
+
+p {
+	font-weight: 600;
+}
+
+strong {
+	font-weight: 800;
+}
+
+.diplome {
+	border-bottom: solid 3.5px #04de5b;
+}
+
+.certif {
+	border-bottom: 3.5px solid #deb204;
+}
+
+span {
+	font-style: italic;
+	font-size: 15px;
+	color: #515251;
+}
