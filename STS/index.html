@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>  
+	<head>
+		<!-- En-tête de la page -->
+		<meta charset="utf-8" />
+		<title>Un formulaire</title>
+		<link rel="stylesheet" href="monStyle"/>
+	</head>
+
+	<body>
+	<color>
+	<form name="formulaire">
+		Votre nom : <input id="inom" type="text" name="nom"><br/>
+		Votre prénom : <input id="iprenom" type="text" name="prenom"><br/>
+		Votre âge : <input id="iage" type="text" name="age"><br/>
+		<input type="radio" id="homme" name="genre" value="homme">
+		<label for="homme">homme</label><br/>
+		<input type="radio" id="femme" name="genre" value="femme">
+		<label for="femme">femme</label><br/>
+		<input type="radio" id="autre" name="genre" value="autre">
+		<label for="autre">autre</label><br/>
+		<input type="button" name="bouton" value="Cliquez ici" onClick="controle()">
+		<input type="button" name="bouton" value="Cliquer ici après avoir cliquer sur l'autre" onClick="suite()">
+	</form>
+
+	<p id="a_remplir"></p>
+	<script type="text/javascript" src="java"></script>
+	<img id="big" src="Image/ChatMort.jpg" style="display:none;"/>
+	<img id="bigpic" src="Image/PDA.jpg" style="display:none;"/>
+	<img id="pic" src="Image/Tombe.jpg" style="display:none;" width="400px" height="600px" /><br/><br/>
+	<p id="text"></p>
+	<p id="zone"></p>
+	</color>
+	</body>
+</html>

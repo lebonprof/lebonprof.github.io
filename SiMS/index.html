@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>  
+	<head>
+	    <link rel="stylesheet" href="./javastyle/js.css">
+		<!-- En-tête de la page -->
+		<meta charset="utf-8" />
+		<title>Un formulaire</title>
+	</head>
+
+	<body>
+	<h1>Quel type de chat es tu?</h1>
+    <h2>Bonjour et bienvenue sur notre site ! Tu as toujours rêvé de savoir quel chat tu étais ? Tu as aujourd'hui une occasion unique de la savoir!!!Il te suffit de répondre à ces 4 questions et tu le sauras !!! </h2>
+    <h1>Es tu prêt à voir ton destin changer ?</br> C'est parti!!!</h1>
+	<form name="Quel type de chat es tu ?">
+		Comment t'appelles tu ? (nom/prenom) : 
+		<input id="inp" 
+			type="text"
+			name="np"><br />
+		Combien as tu de chats ? : 
+		<input id="inc"
+			type="text"
+			name="nc"><br>
+		Que pense tu des chiens : 
+		<input id="irc"
+			type="text"
+			name="rc"><br>
+	    Quel poisson (d'Avril) préfères tu manger ? : 
+		<input id="irp"
+			type="text"
+			name="rp"><br>
+		<input type="button"
+			 name="bouton"
+			 value="Cliquez ici"
+			 onClick="controle()">
+	</form>
+
+	<p id="a_remplir"></p>
+
+	<script type="text/javascript">
+		function controle() {
+			var np = document.getElementById("inp").value;
+			var nc = document.getElementById("inc").value;
+			var rc = document.getElementById("irc").value;
+			var rp = document.getElementById("irp").value;
+			var paragraphe = document.getElementById("a_remplir");
+			paragraphe.innerHTML = "POISSON D'AVRIL!!!!!!!!" np "Il est impossible de savoir quel type de chat tu es car tous les chats sont différents et ce n'est pas quelques questions quin vont te permettre de savoir quel type de chat tu es... Je t'ai bien eu n'est ce pas???"
+		}
+	</script>
+	</body>
+</html>

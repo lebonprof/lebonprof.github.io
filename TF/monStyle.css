@@ -1,0 +1,29 @@
+h1
+{
+	
+	color : RGB(255,0,0);
+	font-size : 36 px;
+	text-align:center;
+}
+h4
+{
+	color:RGB(255,255,255)
+}
+h5
+{
+	text-align:right;
+}
+p
+{
+	color : blue;
+	font-size : 14 px;
+}
+body
+{
+	background-color:black;
+	color:RGB(0,150,255);
+}
+table,th,td
+{
+	border:1px solid white;
+}
