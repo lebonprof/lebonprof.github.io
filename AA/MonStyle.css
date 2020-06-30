@@ -1,0 +1,57 @@
+h2
+{
+	color : red;
+	font-size: 36px;
+	font-family: Algerian;
+	text-align: center;
+}
+body
+{
+	background-color: beige;
+}
+p
+{
+	color : blue;
+	font-size: 14px;
+	font-family: Arial; 
+}
+li
+{
+	color : black;
+	font-style: Arial;
+}
+h1
+{
+	color : violet;
+	font-size: 36px;
+	font-family: Algerian;
+	font-style: bold;
+}
+table
+{
+	text-align: center;
+	font-family: Arial;
+	border: solid black
+}
+a
+{
+	color: green;
+}
+h4
+{
+	font-family: Arial;
+	font-size: 15px;
+	color: blue;
+}
+h3
+{
+	font-family: Arial;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+}
+img
+{
+	width: 200px;
+	height: 200px;
+}

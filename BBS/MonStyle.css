@@ -1,0 +1,55 @@
+h1
+{
+	color : rgb(51, 199, 0);
+	font-size : 40px;	
+	text-align : center;
+}
+
+p
+{
+	color : white;
+	font-size : 30px;
+	text-align : left;
+}
+
+h2
+{
+	color : red;
+	font-size: 25px;
+	text-align : left;
+}
+h3
+{
+	color : green;
+	font-size: 35px;
+	text-align : left;
+}
+
+body
+{
+	background-color : rgb(0, 51, 102);
+}
+
+ul
+{
+	color: white;
+}
+
+li
+{
+	color: red;
+	font-size: 35px;
+}
+
+a 
+{
+	color: red;
+	font-size: 35px
+}
+
+
+table, th, td, tr
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+}

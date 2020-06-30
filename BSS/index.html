@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>  
+	<head>
+		<!-- En-tête de la page -->
+		<meta charset="utf-8" />
+		<title>Un formulaire</title>
+		<link rel="stylesheet" href="projet2.css" />
+	</head>
+
+	<body>
+	<p align="center"><img src="images2/poisson d'avril.JPG"height="500"width="500" TITLE="Je le pratique en club"></br>
+		<form name="formulaire">
+	
+		Votre nom : 
+		<input id="inom" 
+			type="text"
+			name="nom"><br>
+			
+		Votre prénom : 
+		<input id="iprenom"
+			type="text"
+			name="prenom"><br/>
+		
+		Aimez-vous les chats :
+		
+			<input id="ioui" 
+				type="radio"
+				name="chat"
+				value="oui">Oui<br>
+
+				
+			<input id="inon" 
+				type="radio"
+				name="chat"
+				value="non">Non<br>
+				
+				
+		
+		Votre numéro de carte bleue :
+		<input id="icarte_bleue"
+			type="text"
+			name="carte_bleue"><br/>
+			
+		<input type="button"
+			 name="bouton"
+			 value="Cliquez ici"
+			 onClick="controle()">
+			 
+		</form>
+	
+		<p id="a_remplir"></p>
+		<script type="text/javascript" src="javascript_contrôle.js"></script>
+	</body>
+</html>

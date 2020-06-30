@@ -1,0 +1,21 @@
+body
+{
+	background-color : blue;
+	color : white;
+	background-image : url("images/logoHTML5_css3.png");
+}
+
+
+p
+{
+	color : yellow; /* les paragraphes sont en jaune */
+	font-family : "Impact";
+	font-size : 22px; /* paragraphes de 22 pixels */
+	text-align : center;
+}
+
+
+head
+{
+	color : blue;
+}

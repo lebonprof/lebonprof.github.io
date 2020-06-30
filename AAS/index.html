@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!- En-tête de la page ->
+		<meta charset="utf-8"/>
+			<link rel="stylesheet" href="MonCSS.css">
+		<title>Un formulaire</title>
+	</head>
+	
+	<body>
+		<h1>Un petit questionnaire </h1>
+	<form name="formulaire">
+		
+		<U>Êtes-vous team chats ou team chiens ?</U><br/>
+		<div>
+		<input type="radio"
+		id="iteamchien"
+		name="animal"
+		value="chien"
+        checked>
+		
+		<label for="chien">chien</label>
+		</div>
+
+		<div>
+		<input type="radio"
+		id="iteamchat"
+		name="animal"
+		value="chat">
+		<label for="chat">chat</label>
+		</div>
+		
+		<div>
+		<input type="radio"
+		id="ilesdeux"
+		name="animal"
+		value="les deux">
+		<label for="les deux">les deux</label>
+		</div>
+	
+		<U>Si vous avez un chat ou un chien quelle est sa date de naissance:</U><br/>
+		<input id="idate"
+		type="text"
+		name="date()"><br/>
+		
+		<U>Quelle est son aliment préféré:</U><br/>
+		<input id="ialiment"
+		type="text"
+		name="aliment"><br/>
+		
+		<U>Quelle est son jouer préféré:</U><br/>
+		<input id="ijouer"
+		type="text"
+		name="jouer"><br/>
+		
+		<input type="button"
+		name="bouton"
+		value="Clique ici"
+		onClick="controle()">
+	</form>
+	
+	<p id="a_remplir"></p>
+	
+	<script type="text/javascript" src="code_JavaScript.js"></script>
+	
+	</body>
+</html>

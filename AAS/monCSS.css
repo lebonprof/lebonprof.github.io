@@ -1,0 +1,23 @@
+body
+{
+	background-color: beige;
+}
+label
+{
+	color : blue;
+}
+form
+{
+	color : orange;
+}
+h1
+{
+	color : violet;
+	font-size: 36px;
+	font-family: Algerian;
+	text-align: center;
+}
+p
+{
+	color : blue
+}

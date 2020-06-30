@@ -1,0 +1,59 @@
+body
+{
+	background-color : green;
+	color : white;
+	background-image : url("images/logoHTML5_css3.png");
+}
+
+
+h1
+{
+	color : white; /*les titres h1 sont en blanc*/
+	font-family : "Comic Sans Ms";
+	font-size :32px; /*titres de 32 pixels*/
+	text-align : center;
+}
+p
+{
+	color : yellow; /* les paragraphes sont en jaune */
+	font-family : "Impact";
+	font-size : 22px; /* paragraphes de 22 pixels */
+	text-align : center;
+}
+li
+{
+	font-style : normal;
+}
+a
+{
+	font-style : normal;
+}
+head
+{
+	color : blue;
+}
+h2
+{
+	color : black; /*les titres h2 sont en noir*/
+	font-family : "Comic Sans Ms";
+	font-size :28px; /*titres de 32 pixels*/
+	text-align : center;
+}
+h3
+{
+	color : pink; /*les titres h3 sont en rose*/
+	font-family : "Comic Sans Ms";
+	font-size :26px; /*titres de 32 pixels*/
+	text-align : center;
+}
+TITLE
+{
+	color : black
+	font-family : "Arial"
+	font-size : 18px
+}
+title
+{
+	color : red
+	font-family : "Impact"
+}

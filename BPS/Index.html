@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="charte%20graphique.css"/>
+        <title>Jeux de mots</title>
+    </head>
+    
+    <body>
+        <form name="Wordplay">
+        Un animal parmi ceux là:<br/>
+        <input type="radio" id="Chat" name="animal" value="Chat">
+        <label for="Chat">Chat</label><br/>
+        <input type="radio" id="Chien" name="animal" value="Chien">
+        <label for="Chien">Chien</label><br/>
+        Un métier parmi ceux là:<br/>
+        <input type="radio" id="Samouraï" name="métier" value="Samouraï">
+        <label for="Samouraï">Samouraï</label><br/>
+        <input type="radio" id="Poissonier" name="métier" value="Poissonier">
+        <label for="Poissonier">Poissonier</label><br/>
+        Un des douzes mois:<br/>
+        <input type="radio" id="Janvier" name="mois" value="Janvier">
+        <label for="Janvier">Janvier</label><br/>
+        <input type="radio" id="Février" name="mois" value="Février">
+        <label for="Février">Février</label><br/>
+        <input type="radio" id="Mars" name="mois" value="Mars">
+        <label for="Mars">Mars</label><br/>
+        <input type="radio" id="Avril" name="mois" value="Avril">
+        <label for="Avril">Avril</label><br/>
+        <input type="radio" id="Mai" name="mois" value="Mai">
+        <label for="Mai">Mai</label><br/>
+        <input type="radio" id="Juin" name="mois" value="Juin">
+        <label for="Juin">Juin</label><br/>
+        <input type="radio" id="Juillet" name="mois" value="Juillet">
+        <label for="Juillet">Juillet</label><br/>
+        <input type="radio" id="Août" name="mois" value="Août">
+        <label for="Août">Août</label><br/>
+        <input type="radio" id="Septembre" name="mois" value="Septembre">
+        <label for="Septembre">Septembre</label><br/>
+        <input type="radio" id="Octobre" name="mois" value="Octobre">
+        <label for="Octobre">Octobre</label><br/>
+        <input type="radio" id="Novembre" name="mois" value="Novembre">
+        <label for="Novembre">Novembre</label><br/>
+        <input type="radio" id="Décembre" name="mois" value="Décembre">
+        <label for="Décembre">Décembre</label><br/>
+        <label for="RPG">Un nombre entre 1 et 100 inclus:</label>
+        <input type="number" id="rpg" name="RPG" min="1" max="100"><br/><br/>
+            
+        <input type="button" name="bouton" value="Le Jeu de Mot" onClick="melangeur(animal,métier,mois,rpg)">
+        </form>
+        
+        <p id="a_remplir"></p>
+        
+        <script type="text/javascript" src="interractions.js"></script>
+    </body>
+</html>

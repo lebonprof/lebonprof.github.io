@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+	<meta charset="utf-8"/>
+	<title>Formulaire de plainte</title>
+	<link rel="stylesheet" href="MonStyle.css" />
+  </head>
+  
+		
+			<h1>Formulaire de plainte pour des problèmes avec E-lyco<br/>
+			<body>
+			<p>Veuillez renseigner les informations ci-dessous</p>
+			</h1>
+			<form>
+						Nom:
+					<input id="inom" type=" text " name="nom"></br><br>
+						Prénom :
+					<input  id="iprenom" type=" text " name="prenom"></br><br>
+						Adresse E-Mail liée à votre compte e-lyco :
+					<input  id="imail" type=" text " name="email"></br><br>
+						Votre âge :
+					<input id="inombre" type="number" name="age"></br></br>
+		</form>
+		
+		<h2>
+			Genre:
+			
+			<form>
+					<input type="radio" id="male" name="gender" value="ns">
+					<label for="ns">Non Spécifié</label><br>
+					<input type="radio" id="female" name="gender" value="nb">
+					<label for="nb">Non Binaire</label><br>
+					<input type="radio" id="other" name="gender" value="autres">
+					<label for="autres">Autres</label><br>
+					<input type="radio" id="other" name="gender" value="femme">
+					<label for="femme">Femme</label><br>
+					<input type="radio" id="other" name="gender" value="homme">
+					<label for="homme">Homme</label><br>
+		</form>
+			
+		</h2>
+		
+			<h3>
+					Veuillez renseigner votre problème en une phrase concise:
+					<input id="iplainte" type=" text "  name="plainte">
+		</h3>
+			<input id="ibutton" type="button"  name="bouton" value=" Cliquez ici " onClick="clique()">
+					
+					<p id="r"></p>
+	
+			<script type="text/javascript" src="Java.js"></script>		
+	</body>
+</html>

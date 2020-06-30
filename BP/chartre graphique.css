@@ -1,0 +1,52 @@
+body
+{
+    background-color: grey
+}
+
+h1
+{
+    color: white;
+    font-family: Impact;
+    text-align: center;
+}
+
+h2
+{
+    color: white;
+    font-family: Impact;
+    text-align: center;
+}
+
+p
+{
+    color: white;
+    font-family: Comic Sans MS;
+}
+
+ul
+{
+    color: white;
+    font-family: Comic Sans MS;
+}
+
+li
+{
+    color: white;
+    font-family: Comic Sans MS;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+td, th
+{
+    border: 1px solid firebrick;
+    color: firebrick;
+}
+
+img
+{
+    width: 345px;
+}
