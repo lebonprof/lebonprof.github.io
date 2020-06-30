@@ -1,0 +1,21 @@
+form
+{
+    text-align : center; 	
+}
+
+p
+{
+	color : black;
+	font-size : 15px;
+	text-align : justify;
+}
+
+body
+{
+	background-color : rgb(128, 179, 255);
+}
+
+h1
+{
+	text-align : center;
+}

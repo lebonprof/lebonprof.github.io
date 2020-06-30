@@ -1,0 +1,50 @@
+@font-face{
+	font−family:'cipitillo';
+	src:url('Cipitillo.otf')format('truetype');
+}
+
+body
+{
+	font-family:cipitillo;
+	color : RGB(150,150,150);
+	background-image : url("images/QuelleBellePhoto.jpg");
+	background-attachment : fixed; /*le fond reste fixe*/
+	background-repeat : no-repeat; /*le fond n’est pas répété*/
+	background-position : top right; /*le fond sera placé en haut à droite*/
+	
+}
+img {
+	max-width: 50%;
+	height: auto;
+}
+h1
+{
+	text-align:center;
+	color : RGB(250,250,250);
+}
+h3
+{
+	text-align:center;
+	color : RGB(200,200,200);
+}
+a{
+	font-size:32px;
+}
+p{
+	font-size:32px;
+}
+
+li {
+	font-size:30px;
+}
+li li {
+    list-style-type: square;
+}
+
+ul{
+	font-size:30px:
+}
+table{
+	font-size:28px;
+	color : RGB(30,30,30);
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=" utf−8" />
+        <title>Un sondage</title>
+		<link rel="stylesheet" href="monStyle.css" />
+    </head>
+    <body>
+		<p> Merci de bien vouloir remplir ce formulaire.</p>
+		<p> Acceptez vous ? </p>
+		<form>
+			<input type="radio" id="rep1" name="reponse" value="Oui">
+			<label for="Oui">Oui</label><br>
+			<input type="radio" id="rep1" name="reponse" value="Oui, avec plaisir">
+			<label for="Oui, avec plaisir">Oui, avec plaisir</label><br>
+			<input type="radio" id="rep1" name="reponse" value="Pourquoi pas">
+			<label for="Pourquoi pas">Pourquoi pas</label><br>
+			<input type="radio" id="rep1" name="reponse" value="J'ai pas trop le choix">
+			<label for="J'ai pas trop le choix">J'ai pas trop le choix</label>
+		</form>
+		<p>Etes vous d'accord avec l'objet de ce sondage?</p>
+	    <form action="/action_page.php">
+			<input list="reponses">
+			<datalist id="reponses">
+			<option value="Absolument">
+			<option value="Jamais !">		
+			<option value="De quoi on parle ?">
+		</datalist><br>
+		</form>
+		<form>
+			<label for="Pourquoi ?">Pourquoi ?</label><br>
+			<input type="text" id="Pourquoi ?" name="Pourquoi ?">
+		</form>
+		<p>Notez sur une echelle de 1 à 50 votre humeur.(1=vraiment une journée pas dingue,50=incroyable, du jamais vu tellement je suis heureux)</p>
+		<form id="aaa" action="/action_page.php">
+			<input list="humeur">
+			<datalist id="humeur">
+			<option value="1">
+			<option value="2">		
+			<option value="3">
+			<option value="4">
+			<option value="5">
+			<option value="6">
+			<option value="7">
+			<option value="8">
+			<option value="9">
+			<option value="10">
+			<option value="11">
+			<option value="12">		
+			<option value="13">
+			<option value="14">
+			<option value="15">
+			<option value="16">
+			<option value="17">
+			<option value="18">
+			<option value="19">
+			<option value="20">
+			<option value="21">
+			<option value="22">		
+			<option value="23">
+			<option value="24">
+			<option value="25">
+			<option value="26">
+			<option value="27">
+			<option value="28">
+			<option value="29">
+			<option value="30">
+			<option value="31">
+			<option value="32">		
+			<option value="33">
+			<option value="34">
+			<option value="35">
+			<option value="36">
+			<option value="37">
+			<option value="38">
+			<option value="39">
+			<option value="40">
+			<option value="41">
+			<option value="42">		
+			<option value="43">
+			<option value="44">
+			<option value="45">
+			<option value="46">
+			<option value="47">
+			<option value="48">
+			<option value="49">
+			<option value="50">
+		</datalist><br>
+		</form>
+		<p>Au fait, quel est votre psuedonyme?</p>
+		<form>
+		<input id="ipseudo" type="text" >
+		</form>
+		
+		<script type="text/javascript" src="codeJavaScript.js"></script>
+		<button id="boutonReponse" onclick="reponse()">Appuyez ici pour connaitre la vérité !</button>				
+		<p id="a_remplir"></p>
+		<div id="image"></div><br><br><br>
+		<sources><p>Source des images: mon frere</p></sources>
+	</body>
+</html>

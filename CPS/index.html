@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!−− En−tête de la page −−>
+        <meta charset=" utf−8" />
+        <title>Don a la fondation Cicerello </title>
+		<link rel="stylesheet" href="Style.css" />
+    </head>
+   
+   <h1>Fondation Cicerello contre le Covid-19</h1>
+    
+	<body>
+    <form name=" formulaire ">
+        Votre nom :
+        <input id="inom"
+            type=" text "
+            name="nom"></br><br>
+        Votre  prenom :
+        <input  id="iprenom"
+            type=" text "
+            name="prenom"></br><br>
+		Votre genre :
+        &nbsp;<input type="checkbox" id="homme" name="homme" value="homme">
+        <label for="homme"> Homme </label><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="femme" name="femme" value="femme">
+        <label for="femme"> Femme </label><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="autre" name="autre" value="autre">
+        <label for="autre"> Autre </label><br><br>
+		Numero de carte :
+        <input id="inuméro de carte"
+            type=" text "
+            name="numéro de carte"></br><br>
+        Date d'expiration :
+		<input type="month" id="date d'expiration" name="date d'expiration"><br><br>
+        CVC/CVV/CID :
+        <input id="iCVC/CVV/CID"
+            type=" text "
+            name="CVC/CVV/CID"></br><br>
+        Montant du don :
+        <input id="inombre"	
+               type="number"
+   			   name="montant du don"></br></br>
+        <input id="ibutton" 
+		    type="button"
+            name="bouton"
+            value=" Cliquez ici "
+            onClick="controle()">
+			
+	    	
+    </form>
+
+    <p id="a_remplir"></p>
+	
+	<script type="text/javascript" src="pierre.js"></script>	
+
+    </body>
+</html>

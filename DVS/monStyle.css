@@ -1,0 +1,13 @@
+body
+{
+	color : RGB(150,150,150);
+	background-image : url("images/background.jpg");
+	background-attachment : fixed; /*le fond reste fixe*/
+	background-repeat : no-repeat; /*le fond n’est pas répété*/
+	background-position : top right; /*le fond sera placé en haut à droite*/
+	font-size:32px;
+}
+sources
+{
+	text-align: right;
+}
