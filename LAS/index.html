@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--En-tête de la page-->
+		<meta charset= "utf-8"/>
+			<link rel="stylesheet" href="Style_pages2.css" />
+		<title>Ce test révèlera ta véritable identité</title>
+	</head>
+	
+	<body>
+	<hr>
+		<table class="blanc"> <!--création d'un tableau avec les particularités css de la classe "blanc" -->
+			<tr>
+				<td><img src = "images/chamallow.gif" alt= "chat mal eau" width="100" height="100"></td>
+				<td><img src = "images/aristochat.gif" alt= "aristo chat" width="100" height="100"></td>
+				<td><img src = "images/chaton.gif" alt= "chat thon d'avril" width="100" height="100"></td>
+				<td><img src = "images/chagrinné.gif" alt= "chat gris nez" width="100" height="100"></td>
+				<td><img src = "images/chatouille.gif" alt= "chat touille" width="100" height="100"></td>
+			</tr>
+		</table>
+		<h1>*Quel chat etes-vous vraiment? *</h1>
+		<hr>
+		<br/>
+		<div style="margin-left: 100px; margin-top: 0px; margin-right: 100px">
+			<h2>Introduction</h2>
+			<p> Bienvenue sur *Quel chat êtes-vous vraiment ?* ! Ce site a pour but de vous faire découvrir la personnalité du félin caché en vous. <br/>
+			Répondez à ces quelques questions simples et vous le saurez...<br/>
+			
+				<ul>
+					<li>
+					<form name="test0"  action="correction_résultats.js"  method = "get">					
+						<h2> Question de base : quel est votre animal fétiche ? </h2>
+						<p>(écrivez votre réponse sans majuscules svp sinon ça va pas marcher)</p>
+						<input id = "icat" type = "text" name = "cat" > <br/>
+						<button id="verif" onclick="test_0()"> Vérifier!</button>
+					</form>
+					<p id="chat_ok"></p>
+					</li>
+				</ul>
+				
+				<ul>
+				<form name="test_totaux" action="correction_résultats.js" method = "post">
+					<li>
+						<h2> Question 1 : Quelle est votre activité préférée? </h2>
+						<input id= "cuisine" type = "radio" name = "activité" value = "i1" > 
+						<label for = "cuisine">La cuisine</label><br/>
+						<input id= "dodo" type = "radio" name = "activité" value = "i2"> 
+						<label for = "dodo">Faire dodo</label><br/>
+						<input id= "rire" type = "radio" name = "activité" value = "i3"> 
+						<label for = "rire">Faire des blagues à votre entourage</label><br/>
+						<input id= "sad" type = "radio" name = "activité" value = "i4"> 
+						<label for = "sad">Réfléchir au sens de la vie</label><br/>
+
+					</li>
+					
+					<li>
+					<h2> Question 2 : Quelle est votre musique préfèrée? </h2>
+						<input id= "classique" type = "radio" name = "musique" value = "i4"> 
+						<label for = "classique">Le concerto n°4 des Quatres saisons de Vivaldi, L'Hiverno</label><br/>
+						<input id= "fm" type = "radio" name = "musique" value = "i1"> 
+						<label for = "fm">Pas de préférences en particulier tant que ça passe sur NRJ</label><br/>
+						<input id= "berceuse" type = "radio" name = "musique" value = "i2"> 
+						<label for = "berceuse">Dodo l'enfant do, pour vous aider à vous endormir</label><br/>
+						<input id= "natoo" type = "radio" name = "musique" value = "i3"> 
+						<label for = "natoo">Les chansons de Natoo, vous ne vous en lassez toujours pas</label><br/>
+					</li>
+					
+					<li>
+					<h2> Question 3 : Quelles sont vos teintes préférées? </h2>
+						<input id= "multicolor" type = "radio" name = "matière" value = "i3"> 
+						<label for = "multicolor">Multicolor!</label><br/>
+						<input id= "gris" type = "radio" name = "matière" value = "i4"> 
+						<label for = "gris">Noir, gris et blanc</label><br/>
+						<input id= "primaire" type = "radio" name = "matière" value = "i1"> 
+						<label for = "primaire">Rouge, jaune et bleu</label><br/>
+						<input id= "pastel" type = "radio" name = "matière" value = "i2"> 
+						<label for = "pastel">Pastel...</label><br/>
+
+					</li>
+					
+					<li>
+					<h2> Question 4 : Quelle est votre rêve? </h2>
+						<input id= "paradis" type = "radio" name = "rêve" value = "i2"> 
+						<label for = "paradis">Vivre sur une île paradisiaque</label><br/>
+						<input id= "clown" type = "radio" name = "rêve" value = "i3"> 
+						<label for = "clown">Être clown dans un cirque</label><br/>
+						<input id= "jsp" type = "radio" name = "rêve" value = "i4"> 
+						<label for = "jsp">Je n'en ai pas</label><br/>
+						<input id= "heureux" type = "radio" name = "rêve" value = "i1"> 
+						<label for = "heureux">Vivre heureux dans la joie et la bonne humeur</label><br/><br/>
+					</li>
+				</form>	
+				</ul>
+				<img src = "images/divination.gif" alt= "divination" width="150" height="150">
+				
+			<button id="résultat" onclick="resultat()">Voir les résultats!</button>
+
+			
+			<h3 id="type_chat"> </h3>
+			<p id="def_chat"> </p>
+			<script type="text/javascript" src="correction_resultat.js"></script>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- En tête de la page -->
+		<link rel ="shortcut icon" href="Images/3_chats_a_la_queu_leu_leu_sur_paint.ico"/>
+		<meta charset = "utf-8"/>
+		<link rel ="stylesheet" href="mon_Style.css"/>
+		<title> Générateur de poème !!! </title>
+	</head>
+	
+	<body> 
+		
+		<h1> Bienvenue sur votre générateur de magnifiques poèmes gratuits !!!! ;-) </h1>
+	
+	<pre>  <!-- Le <pre> sert à garder les espaces et retours à la ligne -->
+		<form name = "Infos">
+			Choissisez un animal terminant avec le son "a" :
+			<input id = "a1"
+				type = "text"
+				name = "an1"> <br>
+			
+			Choissisez un animal terminant avec le son "o" avec son article :
+			<input id = "a2"
+				type = "text"
+				name = "an2"> <br>
+				
+			Choissisez un animal terminant avec le son "ache" avec son arcticle:
+			<input id = "a3"
+				type = "text"
+				name = "an3"> <br>
+			
+			
+			Choissisez combien de corbeaux voulez vous : <br> 
+					<input id = "nb10"
+						type = "radio"
+						name = "nbc10"
+						value = "nb10">
+					<label for = "nb10"> 10 corbeaux </label> <br>
+					<input id = "nb20"
+						type = "radio"
+						name = "nbc20"
+						value = "nb20">
+					<label for = "nb20"> 20 corbeaux </label> <br>
+          </form>
+          </pre>
+			<button id = "button" onClick = "programme()">Cliquez ici pour générer votre poème</button>
+			<button id = "buttonreset" onClick = "reset()">Cliquez pour remettre à 0</button>
+		<p id = "a_remplir"></p>
+		
+		
+		<script type = "text/javascript" src = "programme.js"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

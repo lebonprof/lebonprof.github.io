@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- En-tête de la page -->
+        <meta charset="utf-8" />
+		<title>Calcul journalier de la quantité de nourriture d'un chat adulte non stérilisé</title>
+		<script type="text/javascript" src="chat.js" ></script>
+		<link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+	
+	<h4> Calcul journalier de la quantité de nouriture d'un chat adulte non stérilisé:</h4>
+		
+		<form name="formulaire">
+			
+			Votre prénom : 	<input id="iprenom" type="text" ><br><br>
+			Poids du chat : <input id="poids" type="number" ><br><br>
+			Type de chat : 	<select id="type1" >
+								<option value="chat d interieur">chat d'intérieur</option>
+								<option value="chat actif">chat actif</option>
+								<option value="chat très actif">chat très actif</option>
+							</select>
+			<br><br>
+			<input type="checkbox" id="chat2" value="chaton" ><label for="chat2">chaton</label><br><br>
+						
+			<input type="button" name="button" value="Cliquez ici" onClick="controle();">
+		</form>
+	
+		<p id="a_remplir">&nbsp;</p>
+		
+		
+		<p><br>Exemple pour des croquettes indiquant une valeur calorique de 300 kilocalories pour 100 grammes</p>
+	</body>
+</html>

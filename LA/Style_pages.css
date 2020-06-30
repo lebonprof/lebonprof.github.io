@@ -1,0 +1,100 @@
+/*on insert de nouvelles polices*/
+@font-face { 
+	font-family: 'font1';
+	src: url('fonts/Summer Tropical Personal Use.ttf');
+}
+
+@font-face {
+	font-family: 'font2';
+	src: url('fonts/Summer-PersonalUse.ttf');
+}
+
+@font-face {
+	font-family: 'fontp';
+	src: url('fonts/bahnschrift.ttf');
+}
+
+/*on met les particularités de la police "bahnschrift.ttf"*/
+ div {
+  font-family: "fontp";
+  font-stretch: expanded;
+}
+
+body{
+	background-image: url("images/wallpaper.jpg");/*image qui sera en fond*/
+	background-color: white;/*couleur du fond*/
+	background-attachment:  fixed; /*fond qui ne bouge pas*/
+	background-repeat: no-repeat;/*pas de répétitions de l'image en fond*/
+	background-position: top; /*position de l'image par rapport au cadre*/
+}
+
+
+h1{
+	background-color: #003333;
+	color: white; /*les titres h1 sont en blanc*/
+	font-size : 110px; /*titres h1 de 100px*/
+	font-family : font1; /*police Summer Tropical Personal Use utilisée pour le titre*/
+	text-align: center;/*titres h1 centrés*/
+}
+
+h2{
+	color: black; /*les titres h2 sont en noir*/
+	font-size : 30px;
+	font-family : font2;
+	text-decoration : underline; /*titres h2 souligné*/
+}
+
+
+p{
+	color: #003333; /*les paragraphes sont de la couleur #003333*/
+	font-size: 14px;
+	font-family : fontp;
+	text-align: justify; /*paragraphes prendra toute la largeur possible sans laisser de blanc en fin de ligne*/
+	
+}
+
+h3{
+	color: black; /*les titres h2 sont en noir*/
+	font-size : 30px;
+	font-family : font1;
+}
+
+h4{ 
+	color: black; 
+	font-size: 14px;
+	font-family : fontp;
+	text-align: justify;
+}
+
+table {
+  width: 100%; /*pour que le tableau prenne toute la largeur de la page*/
+}
+
+table.blanc{
+	background: rgba(255, 255, 255, 0.5) /*pour que l'arrière plan des tableaux avec la classe "blanc" soit blanc avec une transparence de 50%*/
+}
+
+th, td {
+  text-align: center;
+  vertical-align: middle;  /*le texte sera écrit au pile milieu de la case*/
+  font-family : fontp;
+}
+
+th{
+	color: #009999; /*le texte des titres des colones sera en #009999*/
+	background : white; /*pour que l'arrière plan soit blanc*/
+}
+
+ul {
+  background: rgba(255, 255, 255, 0.5) /*le fond des listes est blanc mais avec une transparence de 50%*/
+}
+
+img, iframe{
+ border: solid 4px white; /*Les images et les liens extérieurs comme la map ou la vidéo ont une bordure blanche de 4px*/
+}
+
+img.centre{ /*Les images choisies avec la classe "centre" sont centrées sur la page*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
