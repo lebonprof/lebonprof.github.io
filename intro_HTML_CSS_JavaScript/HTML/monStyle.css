@@ -1,0 +1,33 @@
+body
+{
+	background-color : black;
+	color : cyan;
+	background-image : url("images/logoHTML5_css3.png");
+	background-attachment : fixed; /*le fond reste fixe*/
+	background-repeat : no-repeat; /*le fond n’est pas répété*/
+	background-position : top right; /*le fond sera placé en haut à droite*/
+	
+}
+
+
+h1
+{
+	color : white; /*les titres h1 sont en noirs*/
+	font-family : "Comic Sans Ms";
+	font-size :54px; /*titres de 40 pixels*/
+	text-align : center;
+}
+p
+{
+	color : blue; /* les paragraphes sont en bleu */
+	font-size : 22px; /* paragraphes de 14 pixels */
+	text-align : justify;
+}
+li
+{
+	font-style : italic;
+}
+a
+{
+	font-style : normal;
+}
